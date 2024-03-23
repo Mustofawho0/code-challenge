@@ -334,10 +334,12 @@ export default function Home() {
             ipsum perspiciatis iusto, provident qui nam dolorum corporis."
           </p>
           <div className="flex justify-center space-x-3">
-            <img
-              src="https://source.unsplash.com/80x80/?portrait?1"
-              alt=""
-              className="h-20 w-20 rounded-md bg-gray-300 bg-cover bg-center"
+            <Image
+              src={"/r1.png"}
+              width={50}
+              height={50}
+              alt="gambar"
+              className="h-12 w-12 rounded-full bg-cover bg-center dark:bg-gray-500"
             />
             <div>
               <p className="leading-tight">Leroy Jenkins</p>
