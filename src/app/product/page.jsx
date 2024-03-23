@@ -5,15 +5,15 @@ import Link from "next/link";
 export default function ProductPage() {
   return (
     <>
-      <div className="px-[100px] py-10">
+      <div className="py-10 md:px-[100px]">
         <div className="flex items-end justify-between gap-3 py-7">
           <h1 className=" w-[220px] text-xl font-extrabold ">
             Product Company FHCI
           </h1>
           <hr className="w-full border-b border-black" />
         </div>
-        <div className="flex w-auto overflow-hidden sm:justify-center">
-          <div className="grid grid-cols-1 gap-5 py-5 text-justify md:grid-cols-2 lg:grid-cols-4">
+        <div className="mobile:justify-center flex w-auto overflow-hidden sm:justify-center">
+          <div className="grid grid-cols-1 gap-5 py-5 text-justify md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
             <div className=" max-w-xs rounded-lg border-2 hover:border-red-700">
               <Link href={"#"}>
                 <div className="flex items-center justify-center rounded-lg bg-cyan-800">

@@ -12,7 +12,7 @@ export default function Footer() {
   return (
     <div className="z-10">
       {/* Mobile*/}
-      <div className="lg:hidden">
+      <div className="mobile:hidden lg:hidden">
         <div className="w-full rounded-t-[20%] bg-blue-100">
           <div className="flex items-center justify-center gap-5 px-[100px] py-5 tracking-wider sm:flex-col">
             <div className="w-[80%]">
@@ -25,7 +25,7 @@ export default function Footer() {
                 priority={true}
                 quality={100}
               />
-              <p className="py-5  text-justify text-sm">
+              <p className="py-5 text-justify text-sm">
                 FHCI or Indonesia Human Capital Forum is media for Human Capital
                 Management of Indonesia State-Owned Enterprises to Interacting,
                 do learning and synergy with their members to develop Human
@@ -189,8 +189,8 @@ export default function Footer() {
         </div>
       </div>
       {/* End Desktop */}
-      <div className="flex h-[50px] items-center justify-between bg-blue-300 px-[100px] py-2">
-        <div className="sm:text-xs lg:text-sm">
+      <div className="flex h-[50px] items-center justify-between bg-blue-300 md:px-[100px] py-2 mobile:justify-center">
+        <div className="mobile:hidden sm:text-xs lg:text-sm">
           © 2024 by Forum Human Capital Indonesia. All Rights Reserved.
         </div>
         <div className="flex gap-5 px-14 tracking-wide">

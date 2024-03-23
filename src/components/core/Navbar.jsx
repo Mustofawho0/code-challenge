@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav>
       {/* Mobile */}
       <div className="lg:hidden">
-        <div className="relative flex items-center justify-center rounded-b-full bg-blue-100 px-24 text-black shadow">
+        <div className="relative w-full flex items-center justify-center rounded-b-full bg-blue-100 px-24 text-black shadow">
           <div className="absolute left-10 z-50 flex">
             <div className="drawer">
               <input id="my-drawer" type="checkbox" className="drawer-toggle" />

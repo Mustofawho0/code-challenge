@@ -8,24 +8,17 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+    screens: {
+      mobile: { max: "639px" },
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
     },
   },
   daisyui: {
     themes: ["light"],
   },
-  // theme : {
-  //   screens : {
-  //     "mobile" :{"min":"390px","max":"428px"},
-  //     "tablet" :{"min":"429px","max":"1499px"},
-  //     "mobile" :{"min":"1500px"},
-  //   }
-  // },
   plugins: [],
   plugins: [daisyui],
 };

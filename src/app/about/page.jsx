@@ -10,7 +10,7 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <>
-      <div className="px-[100px] py-10">
+      <div className="py-10 md:px-[100px]">
         {/* <div className="text-4xl font-extrabold tracking-wide"> */}
         <h1 className="text-4xl font-extrabold tracking-wide">About FHCI</h1>
         {/* </div> */}
@@ -45,7 +45,7 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
-      <div className="flex md:flex-row justify-between gap-7 bg-blue-200 px-[100px] py-10 sm:flex-col">
+      <div className="mobile:flex-col flex justify-between gap-7 bg-blue-200 py-10 md:flex-row md:px-[100px]">
         <div className="w-full py-2 text-justify">
           <h1 className="text-lg font-bold">Visi</h1>
           <p className="py-4 text-sm">
@@ -71,13 +71,13 @@ export default function AboutPage() {
         </div>
       </div>
       <div className=" h-auto">
-        <div className="flex flex-row-reverse items-end justify-between gap-3 px-[100px] pt-[100px]">
+        <div className="flex flex-row-reverse items-end justify-between gap-3 pt-[100px] md:px-[100px]">
           <h1 className=" w-[120px] text-xl font-extrabold ">Team FHCI</h1>
           <hr className="px-auto w-full border-b border-black" />
         </div>
       </div>
-      <div className="flex w-auto overflow-hidden sm:justify-center">
-        <div className="grid grid-cols-1 items-center justify-center gap-2 px-[100px] py-[100px] text-justify lg:grid-cols-3">
+      <div className="mobile:justify-center flex w-auto overflow-hidden sm:justify-center">
+        <div className="grid grid-cols-1 items-center justify-center gap-2 py-[100px] text-justify md:px-[100px] lg:grid-cols-3">
           <div className=" max-w-xs rounded-lg ">
             <div className="flex items-center justify-center rounded-lg bg-blue-500 pt-4">
               <Image
@@ -137,7 +137,7 @@ export default function AboutPage() {
         </h1>
       </div>
       {/* Layer terakhir */}
-      <div className="grid grid-cols-1 lg:grid-cols-6 items-center justify-center gap-4 px-[100px] pb-10">
+      <div className="grid grid-cols-1 items-center justify-center gap-4 pb-10 md:px-[100px] lg:grid-cols-6">
         <div className="collapse w-full bg-blue-100">
           <input type="checkbox" name="my-accordion-1" />
           <div className="collapse-title font-medium tracking-wide">
