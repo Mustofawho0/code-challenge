@@ -76,7 +76,8 @@ export default function AboutPage() {
           <hr className="border-b border-black w-full px-auto" />
         </div>
       </div>
-      <div className="flex px-[100px] text-justify gap-10 items-center justify-center py-[100px]">
+      <div className="w-auto overflow-hidden flex sm:justify-center">
+      <div className="grid grid-cols-1 px-[100px] text-justify gap-2 lg:grid-cols-3 items-center justify-center py-[100px]">
         <div className=" rounded-lg max-w-xs ">
           <div className="flex justify-center pt-4 items-center rounded-lg bg-blue-500">
             <Image
@@ -128,6 +129,7 @@ export default function AboutPage() {
           </p>
           <p className="text-sm text-gray-600">Komunikasi Public</p>
         </div>
+      </div>
       </div>
       <div className="pb-10">
         <h1 className="text-4xl font-extrabold tracking-wide text-center">
