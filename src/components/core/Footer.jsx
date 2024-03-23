@@ -10,8 +10,8 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <>
       <div className="z-10">
+        {/* Mobile*/}
         <div className="w-full bg-blue-100 rounded-t-[20%]">
           <div className="flex items-center justify-center px-[100px] py-5 tracking-wider gap-5">
             <div className="b w-[80%] border-r-2 border-black pr-10">
@@ -96,6 +96,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        {/* END MOBILE */}
         <div className="bg-blue-300 h-[50px] py-2 px-[100px] flex items-center justify-between">
           <div className="">
             © 2024 by Forum Human Capital Indonesia. All Rights Reserved.
@@ -125,6 +126,7 @@ export default function Footer() {
         </div>
         {/* END FOOTER */}
       </div>
-    </>
+      // END Dekstop
+      
   );
 }

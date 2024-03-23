@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <div className="py-10">
         <div className="flex justify-center">
-          <div className="sm:w-[100%] md:w-[80%] lg:w-[70%] xl:w-[50%] h-auto w-[50%]">
+          <div className="h-auto w-[50%] sm:w-[100%] md:w-[80%] lg:w-[70%] xl:w-[50%]">
             <div className="text-center">
               <h1 className="text-3xl font-semibold">FHCI BUMN</h1>
               <p className="px-4 py-3">
@@ -34,7 +34,7 @@ export default function Home() {
       </div>
       <div className="h-auto">
         <div className="grid grid-cols-2">
-          <div className="sm:w-[100vw] md:w-[75vw] xl:w-[65vw] lg:w-[70vw] w-[65vw] px-[100px] pt-10">
+          <div className="w-[65vw] px-[100px] pt-10 sm:w-[100vw] md:w-[75vw] lg:w-[70vw] xl:w-[65vw]">
             <h1 className="text-5xl font-extrabold">
               What is <br /> FHCI?
             </h1>
@@ -127,7 +127,7 @@ export default function Home() {
               </button>
             </div>
           </div>
-          <div className="sm:hidden md:flex md:ml-[110px] lg:ml-[150px] xl:ml-[190px] ml-[190px] flex w-[35vw] items-center justify-start">
+          <div className="ml-[190px] flex w-[35vw] items-center justify-start sm:hidden md:ml-[110px] md:flex lg:ml-[150px] xl:ml-[190px]">
             <Image
               className="h-[200px] w-[300px]"
               src={"/logo.png"}
@@ -155,7 +155,7 @@ export default function Home() {
           <hr className="w-full border-b border-black" />
         </div>
       </div>
-      <div className="sm:flex-col flex gap-10 px-[100px] py-5 text-justify">
+      <div className="flex gap-10 px-[100px] py-5 text-justify">
         <div className="w-[50vw] max-w-xs rounded-lg border-2 bg-blue-100 hover:border-red-700">
           <Link href={"#"}>
             <div className="flex items-center justify-center rounded-lg bg-cyan-800">
@@ -323,6 +323,54 @@ export default function Home() {
         <h1 className=" w-[120px] text-xl font-extrabold ">Testimonial</h1>
         <hr className="w-full border-b border-black" />
       </div>
+      <section className="my-8 bg-gray-100 text-gray-800">
+        <div className="container mx-auto flex flex-col items-center space-y-6 p-4 md:p-8">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 512 512"
+            fill="currentColor"
+            className="h-16 w-16 text-sky-600"
+          >
+            <polygon points="328.375 384 332.073 458.999 256.211 406.28 179.924 459.049 183.625 384 151.586 384 146.064 496 182.756 496 256.169 445.22 329.242 496 365.936 496 360.414 384 328.375 384"></polygon>
+            <path d="M415.409,154.914l-2.194-48.054L372.7,80.933,346.768,40.414l-48.055-2.2L256,16.093,213.287,38.219l-48.055,2.2L139.3,80.933,98.785,106.86l-2.194,48.054L74.464,197.628l22.127,42.715,2.2,48.053L139.3,314.323l25.928,40.52,48.055,2.195L256,379.164l42.713-22.126,48.055-2.195,25.928-40.52L413.214,288.4l2.195-48.053,22.127-42.715Zm-31.646,76.949L382,270.377l-32.475,20.78-20.78,32.475-38.515,1.76L256,343.125l-34.234-17.733-38.515-1.76-20.78-32.475L130,270.377l-1.759-38.514L110.5,197.628,128.237,163.4,130,124.88,162.471,104.1l20.78-32.474,38.515-1.76L256,52.132l34.234,17.733,38.515,1.76,20.78,32.474L382,124.88l1.759,38.515L401.5,197.628Z"></path>
+          </svg>
+          <p className="px-6 py-2 text-center text-2xl font-semibold text-gray-700 sm:text-3xl sm:font-bold md:text-4xl lg:max-w-2xl xl:max-w-4xl">
+            "Veniam quidem animi ea maxime odit fugiat architecto perferendis
+            ipsum perspiciatis iusto, provident qui nam dolorum corporis."
+          </p>
+          <div className="flex justify-center space-x-3">
+            <img
+              src="https://source.unsplash.com/80x80/?portrait?1"
+              alt=""
+              className="h-20 w-20 rounded-md bg-gray-300 bg-gray-500 bg-cover bg-center"
+            />
+            <div>
+              <p className="leading-tight">Leroy Jenkins</p>
+              <p className="text-sm leading-tight text-gray-700">
+                Founder, Company
+              </p>
+              <a
+                className="flex items-center space-x-1 py-2 text-sm text-sky-600"
+                href="/"
+              >
+                <span>Read full story</span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 20 20"
+                  fill="currentColor"
+                  className="h-4 w-4"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z"
+                    clipRule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
