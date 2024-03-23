@@ -14,7 +14,7 @@ export default function AboutPage() {
         {/* <div className="text-4xl font-extrabold tracking-wide"> */}
         <h1 className="text-4xl font-extrabold tracking-wide">About FHCI</h1>
         {/* </div> */}
-        <div className="text-justify py-7 text-sm">
+        <div className="py-7 text-justify text-sm">
           <p>
             Kementerian BUMN memprakarsai pertemuan seluruh Direktur Sumber Daya
             Manusia pada tanggal sebelas Nopember dua ribu enam (11-11-2006)
@@ -45,24 +45,24 @@ export default function AboutPage() {
           </p>
         </div>
       </div>
-      <div className="flex bg-blue-200 px-[100px] py-10 gap-7 justify-between">
-        <div className="text-justify py-2 w-full">
-          <h1 className="font-bold text-lg">Visi</h1>
+      <div className="flex md:flex-row justify-between gap-7 bg-blue-200 px-[100px] py-10 sm:flex-col">
+        <div className="w-full py-2 text-justify">
+          <h1 className="text-lg font-bold">Visi</h1>
           <p className="py-4 text-sm">
             Menjadi mitra strategis pemerintah dalam membangun Human Capital
             Unggul.
           </p>
         </div>
-        <div className="text-justify py-2 w-full">
-          <h1 className="font-bold text-lg">Misi</h1>
+        <div className="w-full py-2 text-justify">
+          <h1 className="text-lg font-bold">Misi</h1>
           <p className="py-4 text-sm">
             Memajukan dan mengembangkan pengelolaan Human Capital Indonesia yang
             berkualitas dan berdaya saing global serta peduli terhadap kegaiatan
             sosial kemasyarakatan.
           </p>
         </div>
-        <div className="text-justify py-2 w-full">
-          <h1 className="font-bold text-lg">Motto</h1>
+        <div className="w-full py-2 text-justify">
+          <h1 className="text-lg font-bold">Motto</h1>
           <p className="py-4 text-sm">
             Kami hadir, kami bergerak, kami bekerja, kami bersinergi{" "}
             <i>Employee Value Proposition (EVP) </i>atau Prosisi Nilai Karyawan
@@ -71,80 +71,80 @@ export default function AboutPage() {
         </div>
       </div>
       <div className=" h-auto">
-        <div className="pt-[100px] px-[100px] flex justify-between flex-row-reverse items-end gap-3">
-          <h1 className=" font-extrabold text-xl w-[120px] ">Team FHCI</h1>
-          <hr className="border-b border-black w-full px-auto" />
+        <div className="flex flex-row-reverse items-end justify-between gap-3 px-[100px] pt-[100px]">
+          <h1 className=" w-[120px] text-xl font-extrabold ">Team FHCI</h1>
+          <hr className="px-auto w-full border-b border-black" />
         </div>
       </div>
-      <div className="w-auto overflow-hidden flex sm:justify-center">
-      <div className="grid grid-cols-1 px-[100px] text-justify gap-2 lg:grid-cols-3 items-center justify-center py-[100px]">
-        <div className=" rounded-lg max-w-xs ">
-          <div className="flex justify-center pt-4 items-center rounded-lg bg-blue-500">
-            <Image
-              className="w-[300px] h-[300px]"
-              src={"/poto1.png"}
-              width={1000}
-              height={1000}
-              alt="card"
-              priority={true}
-              quality={100}
-            />
+      <div className="flex w-auto overflow-hidden sm:justify-center">
+        <div className="grid grid-cols-1 items-center justify-center gap-2 px-[100px] py-[100px] text-justify lg:grid-cols-3">
+          <div className=" max-w-xs rounded-lg ">
+            <div className="flex items-center justify-center rounded-lg bg-blue-500 pt-4">
+              <Image
+                className="h-[300px] w-[300px]"
+                src={"/poto1.png"}
+                width={1000}
+                height={1000}
+                alt="card"
+                priority={true}
+                quality={100}
+              />
+            </div>
+            <p className="title-card py-5 text-lg font-extrabold text-blue-400">
+              Alexandra Askandar
+            </p>
+            <p className="text-sm text-gray-600">Ketua Umum</p>
           </div>
-          <p className="text-lg title-card font-extrabold py-5 text-blue-400">
-            Alexandra Askandar
-          </p>
-          <p className="text-sm text-gray-600">Ketua Umum</p>
-        </div>
-        <div className=" rounded-lg max-w-xs ">
-          <div className="flex justify-center pt-4 items-center rounded-lg bg-blue-500">
-            <Image
-              className=" w-[300px] h-[300px]"
-              src={"/poto2.png"}
-              width={1000}
-              height={1000}
-              alt="card"
-              priority={true}
-              quality={100}
-            />
+          <div className=" max-w-xs rounded-lg ">
+            <div className="flex items-center justify-center rounded-lg bg-blue-500 pt-4">
+              <Image
+                className=" h-[300px] w-[300px]"
+                src={"/poto2.png"}
+                width={1000}
+                height={1000}
+                alt="card"
+                priority={true}
+                quality={100}
+              />
+            </div>
+            <p className="title-card py-5 text-lg font-extrabold text-blue-400">
+              Dharma Syahputra
+            </p>
+            <p className="text-sm text-gray-600">Sekertaris Jendral</p>
           </div>
-          <p className="text-lg title-card font-extrabold py-5 text-blue-400">
-            Dharma Syahputra
-          </p>
-          <p className="text-sm text-gray-600">Sekertaris Jendral</p>
-        </div>
-        <div className=" rounded-lg max-w-xs ">
-          <div className="flex justify-center pt-4 items-center rounded-lg bg-blue-500">
-            <Image
-              className=" w-[300px] h-[300px]"
-              src={"/poto3.png"}
-              width={1000}
-              height={1000}
-              alt="card"
-              priority={true}
-              quality={100}
-            />
+          <div className=" max-w-xs rounded-lg ">
+            <div className="flex items-center justify-center rounded-lg bg-blue-500 pt-4">
+              <Image
+                className=" h-[300px] w-[300px]"
+                src={"/poto3.png"}
+                width={1000}
+                height={1000}
+                alt="card"
+                priority={true}
+                quality={100}
+              />
+            </div>
+            <p className="title-card py-5 text-lg font-extrabold text-blue-400">
+              Nina Kurnia Dewi
+            </p>
+            <p className="text-sm text-gray-600">Komunikasi Public</p>
           </div>
-          <p className="text-lg title-card font-extrabold py-5 text-blue-400">
-            Nina Kurnia Dewi
-          </p>
-          <p className="text-sm text-gray-600">Komunikasi Public</p>
         </div>
-      </div>
       </div>
       <div className="pb-10">
-        <h1 className="text-4xl font-extrabold tracking-wide text-center">
+        <h1 className="text-center text-4xl font-extrabold tracking-wide">
           Core Value <span className="text-blue-500">AKHLAK</span>
         </h1>
       </div>
       {/* Layer terakhir */}
-      <div className="px-[100px] flex items-center justify-center gap-4 pb-10">
-        <div className="collapse bg-blue-100 w-full">
+      <div className="grid grid-cols-1 lg:grid-cols-6 items-center justify-center gap-4 px-[100px] pb-10">
+        <div className="collapse w-full bg-blue-100">
           <input type="checkbox" name="my-accordion-1" />
           <div className="collapse-title font-medium tracking-wide">
-            <h1 className="text-blue-500 text-xl">
+            <h1 className="text-xl text-blue-500">
               <span className="text-blue-900">A</span>manah
             </h1>
-            <p className="text-xs pt-2">
+            <p className="pt-2 text-xs">
               Memegang teguh kepercayaan yang diberikan
             </p>
           </div>
@@ -157,10 +157,10 @@ export default function AboutPage() {
             <p>3. Berpegang teguh kepada nilai moral dan etika</p>
           </div>
         </div>
-        <div className="collapse bg-gray-100 w-full">
+        <div className="collapse w-full bg-gray-100">
           <input type="checkbox" name="my-accordion-1" />
           <div className="collapse-title font-medium tracking-wide">
-            <h1 className="text-blue-500 text-xl">
+            <h1 className="text-xl text-blue-500">
               <span className="text-blue-900">K</span>ompeten
             </h1>
             <p className="pt-2 text-xs">
@@ -176,10 +176,10 @@ export default function AboutPage() {
             <p>6. Menyelesaikan tugas dengan kualitas terbaik</p>
           </div>
         </div>
-        <div className="collapse bg-blue-100 w-full">
+        <div className="collapse w-full bg-blue-100">
           <input type="checkbox" name="my-accordion-1" />
           <div className="collapse-title font-medium tracking-wide">
-            <h1 className="text-blue-500 text-xl">
+            <h1 className="text-xl text-blue-500">
               <span className="text-blue-900">H</span>armonis
             </h1>
             <p className="pt-2 text-xs">
@@ -192,10 +192,10 @@ export default function AboutPage() {
             <p>9. Membangun lingkungan kerja yang kondusif</p>
           </div>
         </div>
-        <div className="collapse bg-gray-100 w-full">
+        <div className="collapse w-full bg-gray-100">
           <input type="checkbox" name="my-accordion-1" />
           <div className="collapse-title font-medium tracking-wide">
-            <h1 className="text-blue-500 text-xl">
+            <h1 className="text-xl text-blue-500">
               <span className="text-blue-900">L</span>oyal
             </h1>
             <p className="pt-2 text-xs">
@@ -213,10 +213,10 @@ export default function AboutPage() {
             </p>
           </div>
         </div>
-        <div className="collapse bg-blue-100 w-full">
+        <div className="collapse w-full bg-blue-100">
           <input type="checkbox" name="my-accordion-1" />
           <div className="collapse-title font-medium tracking-wide">
-            <h1 className="text-blue-500 text-xl">
+            <h1 className="text-xl text-blue-500">
               <span className="text-blue-900">A</span>daptif
             </h1>
             <p className="pt-2 text-xs">
@@ -233,10 +233,10 @@ export default function AboutPage() {
             <p>15. Bertindak positif</p>
           </div>
         </div>
-        <div className="collapse bg-gray-100 w-full">
+        <div className="collapse w-full bg-gray-100">
           <input type="checkbox" name="my-accordion-1" />
           <div className="collapse-title font-medium tracking-wide">
-            <h1 className="text-blue-500 text-xl">
+            <h1 className="text-xl text-blue-500">
               <span className="text-blue-900">K</span>olaboratif
             </h1>
             <p className="pt-2 text-xs">Membangun kerjasama yang sinergis</p>

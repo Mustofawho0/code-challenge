@@ -32,7 +32,6 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="">
         <div className="grid grid-cols-2">
           <div className="w-[65vw] px-[100px] pt-10 sm:w-[100vw] md:w-[75vw] lg:w-[70vw] xl:w-[65vw]">
             <h1 className="text-5xl font-extrabold">
@@ -154,7 +153,6 @@ export default function Home() {
           <h1 className=" w-[160px] text-xl font-extrabold ">Press Release</h1>
           <hr className="w-full border-b border-black" />
         </div>
-      </div>
       <div className="w-auto overflow-hidden flex sm:justify-center">
       <div className="grid grid-cols-1 gap-2 px-[100px] py-5 text-justify md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
         <div className="max-w-xs rounded-lg border-2 bg-blue-100 hover:border-red-700">
@@ -344,7 +342,7 @@ export default function Home() {
             <img
               src="https://source.unsplash.com/80x80/?portrait?1"
               alt=""
-              className="h-20 w-20 rounded-md bg-gray-300 bg-gray-500 bg-cover bg-center"
+              className="h-20 w-20 rounded-md bg-gray-300 bg-cover bg-center"
             />
             <div>
               <p className="leading-tight">Leroy Jenkins</p>
