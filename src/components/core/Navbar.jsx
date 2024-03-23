@@ -98,6 +98,7 @@ export default function Navbar() {
           {/* END DESKTOP */}
         </div>
       </div>
+      {/* End dekstop */}
     </nav>
   );
 }

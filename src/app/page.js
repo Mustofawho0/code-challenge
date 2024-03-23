@@ -32,7 +32,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="h-auto">
+      <div className="">
         <div className="grid grid-cols-2">
           <div className="w-[65vw] px-[100px] pt-10 sm:w-[100vw] md:w-[75vw] lg:w-[70vw] xl:w-[65vw]">
             <h1 className="text-5xl font-extrabold">
