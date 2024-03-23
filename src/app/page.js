@@ -32,7 +32,7 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="grid md:grid-cols-2">
+      <div className="grid grid-cols-2">
         <div className="w-full pt-10 mobile:w-[100vw] sm:w-[100vw] md:w-[75vw] md:px-[100px] lg:w-[70vw] xl:w-[65vw]">
           <h1 className="text-5xl font-extrabold">
             What is <br /> FHCI?
