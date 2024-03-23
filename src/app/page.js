@@ -7,7 +7,7 @@ export default function Home() {
     <div className="">
       <div className="py-10">
         <div className="flex justify-center">
-          <div className="mobile:w-[100%] h-auto w-[50%] sm:w-[100%] md:w-[80%] lg:w-[70%] xl:w-[50%]">
+          <div className="h-auto w-[50%] mobile:w-[100%] sm:w-[100%] md:w-[80%] lg:w-[70%] xl:w-[50%]">
             <div className="text-center">
               <h1 className="text-3xl font-semibold">FHCI BUMN</h1>
               <p className="px-4 py-3">
@@ -32,8 +32,8 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="grid grid-cols-2">
-        <div className="mobile:w-[100vw] w-full pt-10 sm:w-[100vw] md:w-[75vw] md:px-[100px] lg:w-[70vw] xl:w-[65vw]">
+      <div className="grid md:grid-cols-2">
+        <div className="w-full pt-10 mobile:w-[100vw] sm:w-[100vw] md:w-[75vw] md:px-[100px] lg:w-[70vw] xl:w-[65vw]">
           <h1 className="text-5xl font-extrabold">
             What is <br /> FHCI?
           </h1>
@@ -123,7 +123,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="mobile:hidden ml-[190px] flex w-[35vw] items-center justify-start sm:hidden md:ml-[110px] lg:ml-[150px] xl:ml-[190px]">
+        <div className="ml-[190px] flex w-[35vw] items-center justify-start mobile:hidden sm:hidden md:ml-[110px] lg:ml-[150px] xl:ml-[190px]">
           <Image
             className="h-[200px] w-[300px]"
             src={"/logo.png"}
@@ -148,8 +148,8 @@ export default function Home() {
         <h1 className=" w-[160px] text-xl font-extrabold ">Press Release</h1>
         <hr className="w-full border-b border-black" />
       </div>
-      <div className="mobile:justify-center flex w-auto overflow-hidden lg:justify-center">
-        <div className="mobile:grid-cols-1 grid gap-2 py-5 text-justify md:grid-cols-2 md:px-[100px] lg:grid-cols-2 xl:grid-cols-4">
+      <div className="flex w-auto overflow-hidden mobile:justify-center sm:justify-center lg:justify-center">
+        <div className="grid gap-2 py-5 text-justify mobile:grid-cols-1 md:grid-cols-2 md:px-[100px] lg:grid-cols-2 xl:grid-cols-4">
           <div className="max-w-xs rounded-lg border-2 bg-blue-100 hover:border-red-700">
             <Link href={"#"}>
               <div className="flex items-center justify-center rounded-lg bg-cyan-800">
