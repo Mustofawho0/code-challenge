@@ -61,16 +61,16 @@ export default function Footer() {
                   <span className="font-sans font-bold">Product Company</span>
                   <ul className="py-7 text-sm">
                     <li className="py-3 hover:text-red-500">
-                      <a href="#">Srikandi BUMN</a>
+                      <a href="https://srikandibumn.org/">Srikandi BUMN</a>
                     </li>
                     <li className="py-3 hover:text-red-500">
-                      <a href="#">BUMN Muda</a>
+                      <a href="https://bumnmudapelindo.org/">BUMN Muda</a>
                     </li>
                     <li className="py-3 hover:text-red-500">
-                      <a href="#">LSP MHCI</a>
+                      <a href="https://www.lsphcmi.com/">LSP HCMI</a>
                     </li>
                     <li className="py-3 hover:text-red-500">
-                      <a href="#">LPK FHCI</a>
+                      <a href="https://www.instagram.com/lpk_fhci/">LPK FHCI</a>
                     </li>
                   </ul>
                 </div>
@@ -78,18 +78,24 @@ export default function Footer() {
                   <span className="font-sans font-bold">Contact Us</span>
                   <ul className="py-7 text-sm">
                     <li className="flex items-center justify-start gap-3 py-3 text-sm hover:text-red-500">
-                      <FaWhatsapp size={20} /> <a href="#">08118954320</a>
+                      <FaWhatsapp size={20} />{" "}
+                      <a href="https://api.whatsapp.com/send/?phone=08118954320&text&type=phone_number&app_absent=0">
+                        08118954320
+                      </a>
                     </li>
                     <li className="flex items-center justify-start gap-3 py-3 text-sm hover:text-red-500">
-                      <BsTelephone size={20} /> <a href="#">021 2709 5432</a>
+                      <BsTelephone size={20} />{" "}
+                      <a href="https://api.whatsapp.com/send/?phone=08118954320&text&type=phone_number&app_absent=0">
+                        021 2709 5432
+                      </a>
                     </li>
                     <li className="flex items-center justify-start gap-3 py-3 text-sm hover:text-red-500">
                       <MdOutlineEmail size={20} />
-                      <a href="#">fhcibumn@gmail.com</a>
+                      <a href="mailto:fhcibumn@gmail.com">fhcibumn@gmail.com</a>
                     </li>
                     <li className="flex items-center justify-center gap-3 py-3 text-sm hover:text-red-500">
                       <SlLocationPin size={50} />
-                      <a href="#">
+                      <a href="https://maps.app.goo.gl/ueDMDP1Xy3AkyfodA">
                         Gedung Plaza Mandiri Lantai 28, Jalan Jend. Gatot
                         Subroto Kav. 36-38, Jakarta Selatan 12190.
                       </a>
@@ -168,18 +174,24 @@ export default function Footer() {
                 <span className="font-sans font-bold">Contact Us</span>
                 <ul className="py-7 text-sm">
                   <li className="flex items-center justify-start gap-3 py-3 text-sm hover:text-red-500">
-                    <FaWhatsapp size={20} /> <a href="#">08118954320</a>
+                    <FaWhatsapp size={20} />{" "}
+                    <a href="https://api.whatsapp.com/send/?phone=08118954320&text&type=phone_number&app_absent=0">
+                      08118954320
+                    </a>
                   </li>
                   <li className="flex items-center justify-start gap-3 py-3 text-sm hover:text-red-500">
-                    <BsTelephone size={20} /> <a href="#">021 2709 5432</a>
+                    <BsTelephone size={20} />{" "}
+                    <a href="https://api.whatsapp.com/send/?phone=08118954320&text&type=phone_number&app_absent=0">
+                      021 2709 5432
+                    </a>
                   </li>
                   <li className="flex items-center justify-start gap-3 py-3 text-sm hover:text-red-500">
                     <MdOutlineEmail size={20} />
-                    <a href="#">fhcibumn@gmail.com</a>
+                    <a href="mailto:fhcibumn@gmail.com">fhcibumn@gmail.com</a>
                   </li>
                   <li className="flex items-center justify-center gap-3 py-3 text-sm hover:text-red-500">
                     <SlLocationPin size={50} />
-                    <a href="#">
+                    <a href="https://maps.app.goo.gl/ueDMDP1Xy3AkyfodA">
                       Gedung Plaza Mandiri Lantai 28, Jalan Jend. Gatot Subroto
                       Kav. 36-38, Jakarta Selatan 12190.
                     </a>
@@ -198,22 +210,22 @@ export default function Footer() {
         </div>
         <div className="flex gap-5 px-14 tracking-wide">
           <span className="hover:text-red-500">
-            <a href="#">
+            <a href="https://www.instagram.com/fhci.bumn/">
               <RiInstagramFill size={20} />
             </a>
           </span>
           <span className="hover:text-red-500">
-            <a href="#">
+            <a href="https://twitter.com/fhcibumn">
               <FaTwitter size={20} />
             </a>
           </span>
           <span className="hover:text-red-500">
-            <a href="#">
+            <a href="https://www.tiktok.com/@fhci.bumn">
               <FaTiktok size={20} />
             </a>
           </span>
           <span className="hover:text-red-500">
-            <a href="#">
+            <a href="https://www.youtube.com/@fhcibumn5207">
               <FaYoutube size={20} />
             </a>
           </span>

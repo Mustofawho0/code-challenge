@@ -15,7 +15,7 @@ export default function ProductPage() {
         <div className="mobile:justify-center flex w-auto overflow-hidden sm:justify-center">
           <div className="grid grid-cols-1 gap-5 py-5 text-justify md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4">
             <div className=" max-w-xs rounded-lg border-2 hover:border-red-700">
-              <Link href={"#"}>
+              <Link href={"https://rekrutmenbersama2024.fhcibumn.id/"}>
                 <div className="flex items-center justify-center rounded-lg bg-cyan-800">
                   <Image
                     className="h-[150px] w-[320px] rounded-lg"
@@ -46,7 +46,7 @@ export default function ProductPage() {
               </Link>
             </div>
             <div className=" max-w-xs rounded-lg border-2 hover:border-red-700">
-              <Link href={"#"}>
+              <Link href={"https://magentaku.id/"}>
                 <div className="flex items-center justify-center rounded-lg bg-cyan-800">
                   <Image
                     className="h-[150px] w-[320px] rounded-lg"
@@ -75,7 +75,7 @@ export default function ProductPage() {
               </Link>
             </div>
             <div className=" max-w-xs rounded-lg border-2 hover:border-red-700">
-              <Link href={"#"}>
+              <Link href={"https://drive.google.com/file/d/18Sq3YO8JPufZYESA7eB95Uk0qcipJCer/view"}>
                 <div className="flex items-center justify-center rounded-lg bg-cyan-800">
                   <Image
                     className="h-[150px] w-[320px] rounded-lg"
@@ -108,7 +108,7 @@ export default function ProductPage() {
               </Link>
             </div>
             <div className=" max-w-xs rounded-lg border-2 hover:border-red-700">
-              <Link href={"#"}>
+              <Link href={"https://www.instagram.com/lpk_fhci/"}>
                 <div className="flex items-center justify-center rounded-lg bg-white">
                   <Image
                     className="h-[150px] w-[200px] rounded-lg"

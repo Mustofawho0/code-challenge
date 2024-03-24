@@ -153,7 +153,7 @@ export default function Home() {
       <div className="flex w-auto overflow-hidden mobile:justify-center sm:justify-center lg:justify-center">
         <div className="grid gap-2 py-5 text-justify mobile:grid-cols-1 md:grid-cols-2 md:px-[100px] lg:grid-cols-2 xl:grid-cols-4">
           <div className="max-w-xs rounded-lg border-2 bg-blue-100 hover:border-red-700">
-            <Link href={"#"}>
+            <Link href={"https://fhcibumn.com/media/bumn-bersama-linkedin-jalin-kemitraan-pembelajaran-strategis-menggapai-standar-global-dalam-ekosistem-bumn-di-indonesia-6FaBQR/press-releases"}>
               <div className="flex items-center justify-center rounded-lg bg-cyan-800">
                 <Image
                   className="h-[180px] w-[270px] rounded-lg"
@@ -187,7 +187,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="max-w-xs rounded-lg border-2 bg-blue-100 hover:border-red-700">
-            <Link href={"#"}>
+            <Link href={"https://fhcibumn.com/media/kabar-gembira-rekrutmen-bersama-bumn-rbb-tahun-2024-akan-segera-dibuka-nQPA3l/press-releases"}>
               <div className="flex items-center justify-center rounded-lg bg-cyan-800">
                 <Image
                   className="h-[180px] w-[150px] rounded-lg"
@@ -223,7 +223,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="max-w-xs rounded-lg border-2 bg-blue-100 hover:border-red-700">
-            <Link href={"#"}>
+            <Link href={"https://fhcibumn.com/media/peringati-hari-ibu-srikandi-bumn-beri-dukungan-terhadap-employee-well-being-concern-6nwkLP/press-releases"}>
               <div className="flex items-center justify-center rounded-lg bg-cyan-800">
                 <Image
                   className="h-[180px] w-[270px] rounded-lg"
@@ -260,7 +260,7 @@ export default function Home() {
             </Link>
           </div>
           <div className="max-w-xs rounded-lg border-2 bg-blue-100 hover:border-red-700">
-            <Link href={"#"}>
+            <Link href={"https://fhcibumn.com/media/lebih-dari-2000-lowongan-kerja-di-rekrutmen-bersama-bumn-rbb-2023-6pjIdB/press-releases"}>
               <div className="flex items-center justify-center rounded-lg bg-cyan-800">
                 <Image
                   className="h-[180px] w-[270px] rounded-lg"
