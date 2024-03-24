@@ -346,7 +346,7 @@ export default function Home() {
               height={60}
               loading="lazy"
               alt="gambar"
-              className="h-12 w-12 rounded-full bg-cover bg-center dark:bg-gray-500"
+              className="h-12 w-12 rounded-full bg-cover bg-center dark:bg-blue-200"
             />
             <div>
               <p className="leading-tight">Erick Thohir</p>

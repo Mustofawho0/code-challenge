@@ -113,7 +113,7 @@ export default function Footer() {
                 width={400}
                 height={400}
                 alt="logo"
-                // 
+                //
                 loading="lazy"
                 quality={100}
               />
@@ -133,19 +133,19 @@ export default function Footer() {
               <div className="ml-[100px] w-[30%]">
                 <span className="font-sans font-bold">Menu</span>
                 <ul className="py-7 text-sm">
-                    <li className="py-3 hover:text-red-500">
-                      <Link href="/">Home</Link>
-                    </li>
-                    <li className="py-3 hover:text-red-500">
-                      <Link href="/about">About Us</Link>
-                    </li>
-                    <li className="py-3 hover:text-red-500">
-                      <Link href="/product">Product Company</Link>
-                    </li>
-                    <li className="py-3 hover:text-red-500">
-                      <Link href="/team">Our Team</Link>
-                    </li>
-                  </ul>
+                  <li className="py-3 hover:text-red-500">
+                    <Link href="/">Home</Link>
+                  </li>
+                  <li className="py-3 hover:text-red-500">
+                    <Link href="/about">About Us</Link>
+                  </li>
+                  <li className="py-3 hover:text-red-500">
+                    <Link href="/product">Product Company</Link>
+                  </li>
+                  <li className="py-3 hover:text-red-500">
+                    <Link href="/team">Our Team</Link>
+                  </li>
+                </ul>
               </div>
               <div className=" w-[55%]">
                 <span className="font-sans font-bold">Product Company</span>
@@ -191,9 +191,10 @@ export default function Footer() {
         </div>
       </div>
       {/* End Desktop */}
-      <div className="flex h-[50px] items-center justify-between bg-blue-300 md:px-[100px] py-2 mobile:justify-center">
-        <div className="mobile:hidden sm:text-xs lg:text-sm">
-          © 2024 by Forum Human Capital Indonesia. All Rights Reserved.
+      <div className="flex h-[80px] flex-col items-center justify-center bg-blue-300 py-2 mobile:h-[80px] mobile:gap-4 sm:gap-4 md:flex-row md:justify-between md:px-[100px]">
+        <div className="mobile:text-center mobile:text-xs sm:text-xs lg:text-sm">
+          © 2024 Create by Nurul Musthofa, Clone from Forum Human Capital
+          Indonesia. All Rights Reserved.
         </div>
         <div className="flex gap-5 px-14 tracking-wide">
           <span className="hover:text-red-500">
