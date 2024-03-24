@@ -23,11 +23,11 @@ export default function Home() {
           <Image
             className="w-[100vw] rounded-t-[40%]"
             src={"/g1.jpg"}
-            width={1000}
-            height={1000}
+            width={10000}
+            height={10000}
             // sizes="100vw"
             alt="Picture"
-            // quality={100}
+            quality={100}
             // priority={true}
             loading="lazy"
           />
@@ -336,19 +336,20 @@ export default function Home() {
             <path d="M415.409,154.914l-2.194-48.054L372.7,80.933,346.768,40.414l-48.055-2.2L256,16.093,213.287,38.219l-48.055,2.2L139.3,80.933,98.785,106.86l-2.194,48.054L74.464,197.628l22.127,42.715,2.2,48.053L139.3,314.323l25.928,40.52,48.055,2.195L256,379.164l42.713-22.126,48.055-2.195,25.928-40.52L413.214,288.4l2.195-48.053,22.127-42.715Zm-31.646,76.949L382,270.377l-32.475,20.78-20.78,32.475-38.515,1.76L256,343.125l-34.234-17.733-38.515-1.76-20.78-32.475L130,270.377l-1.759-38.514L110.5,197.628,128.237,163.4,130,124.88,162.471,104.1l20.78-32.474,38.515-1.76L256,52.132l34.234,17.733,38.515,1.76,20.78,32.474L382,124.88l1.759,38.515L401.5,197.628Z"></path>
           </svg>
           <p className="px-6 py-2 text-center text-2xl font-semibold text-gray-700 sm:text-3xl sm:font-bold md:text-4xl lg:max-w-2xl xl:max-w-4xl">
-            "Veniam quidem animi ea maxime odit fugiat architecto perferendis
-            ipsum perspiciatis iusto, provident qui nam dolorum corporis."
+            "Tumbuhkan semangat kebersamaan, BUMN kita, kebanggaan! Soliditas
+            dan inovasi, jadi kunci menuju prestasi."
           </p>
           <div className="flex justify-center space-x-3">
             <Image
-              src={"/r1.png"}
-              width={50}
-              height={50}
+              src={"/eric.jpg"}
+              width={60}
+              height={60}
+              loading="lazy"
               alt="gambar"
               className="h-12 w-12 rounded-full bg-cover bg-center dark:bg-gray-500"
             />
             <div>
-              <p className="leading-tight">Leroy Jenkins</p>
+              <p className="leading-tight">Erick Thohir</p>
               <p className="text-sm leading-tight text-gray-700">
                 Founder, Company
               </p>
