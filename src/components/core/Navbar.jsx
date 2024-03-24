@@ -58,7 +58,8 @@ export default function Navbar() {
           <div>
             <Image
               className="h-[70px] w-[140px]"
-              priority={true}
+              // priority={true}
+              loading="lazy"
               quality={100}
               src="/logo.png"
               alt="logo"
@@ -75,7 +76,8 @@ export default function Navbar() {
           <div>
             <Image
               className="h-[70px] w-[140px]"
-              priority={true}
+              // 
+              loading="lazy"
               quality={100}
               src="/logo.png"
               alt="logo"

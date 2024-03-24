@@ -29,6 +29,7 @@ export default function Home() {
             alt="Picture"
             quality={100}
             // priority={true}
+            loading="lazy"
           />
         </div>
       </div>
@@ -131,6 +132,7 @@ export default function Home() {
             height={1000}
             alt="logo"
             // priority={true}
+            loading="lazy"
             quality={100}
           />
         </div>
@@ -160,6 +162,7 @@ export default function Home() {
                   height={1000}
                   alt="card"
                   // priority={true}
+                  loading="lazy"
                   quality={100}
                 />
               </div>
@@ -193,6 +196,7 @@ export default function Home() {
                   height={1000}
                   alt="card"
                   // priority={true}
+                  loading="lazy"
                   quality={100}
                 />
               </div>
@@ -228,6 +232,7 @@ export default function Home() {
                   height={500}
                   alt="card"
                   // priority={true}
+                  loading="lazy"
                   quality={100}
                 />
               </div>
@@ -264,6 +269,7 @@ export default function Home() {
                   height={500}
                   alt="card"
                   // priority={true}
+                  loading="lazy"
                   quality={100}
                 />
               </div>

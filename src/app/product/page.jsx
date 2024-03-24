@@ -24,6 +24,7 @@ export default function ProductPage() {
                     height={1000}
                     alt="card"
                     // priority={true}
+                    loading="lazy"
                     quality={100}
                   />
                 </div>
@@ -53,7 +54,8 @@ export default function ProductPage() {
                     width={1000}
                     height={1000}
                     alt="card"
-                    // priority={true}
+                    // 
+                    loading="lazy"
                     quality={100}
                   />
                 </div>
@@ -81,7 +83,8 @@ export default function ProductPage() {
                     width={1000}
                     height={1000}
                     alt="card"
-                    // priority={true}
+                    // 
+                    loading="lazy"
                     quality={100}
                   />
                 </div>
@@ -113,7 +116,8 @@ export default function ProductPage() {
                     width={1000}
                     height={1000}
                     alt="card"
-                    // priority={true}
+                    // 
+                    loading="lazy"
                     quality={100}
                   />
                 </div>

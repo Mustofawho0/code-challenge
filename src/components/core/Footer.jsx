@@ -22,7 +22,8 @@ export default function Footer() {
                 width={400}
                 height={400}
                 alt="logo"
-                priority={true}
+                // priority={true}
+                loading="lazy"
                 quality={100}
               />
               <p className="py-5 text-justify text-sm">
@@ -112,7 +113,8 @@ export default function Footer() {
                 width={400}
                 height={400}
                 alt="logo"
-                priority={true}
+                // 
+                loading="lazy"
                 quality={100}
               />
               <p className="py-5  text-justify text-sm">

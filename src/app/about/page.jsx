@@ -87,6 +87,7 @@ export default function AboutPage() {
                 height={1000}
                 alt="card"
                 // priority={true}
+                loading="lazy"
                 quality={100}
               />
             </div>
@@ -103,7 +104,8 @@ export default function AboutPage() {
                 width={1000}
                 height={1000}
                 alt="card"
-                // priority={true}
+                // 
+                loading="lazy"
                 quality={100}
               />
             </div>
@@ -120,7 +122,8 @@ export default function AboutPage() {
                 width={1000}
                 height={1000}
                 alt="card"
-                // priority={true}
+                // 
+                loading="lazy"
                 quality={100}
               />
             </div>
