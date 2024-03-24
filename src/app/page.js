@@ -28,7 +28,7 @@ export default function Home() {
             // sizes="100vw"
             alt="Picture"
             quality={100}
-            priority={true}
+            // priority={true}
           />
         </div>
       </div>
@@ -130,7 +130,7 @@ export default function Home() {
             width={1000}
             height={1000}
             alt="logo"
-            priority={true}
+            // priority={true}
             quality={100}
           />
         </div>
@@ -159,7 +159,7 @@ export default function Home() {
                   width={1000}
                   height={1000}
                   alt="card"
-                  priority={true}
+                  // priority={true}
                   quality={100}
                 />
               </div>
@@ -192,7 +192,7 @@ export default function Home() {
                   width={1000}
                   height={1000}
                   alt="card"
-                  priority={true}
+                  // priority={true}
                   quality={100}
                 />
               </div>
@@ -227,7 +227,7 @@ export default function Home() {
                   width={500}
                   height={500}
                   alt="card"
-                  priority={true}
+                  // priority={true}
                   quality={100}
                 />
               </div>
@@ -263,7 +263,7 @@ export default function Home() {
                   width={500}
                   height={500}
                   alt="card"
-                  priority={true}
+                  // priority={true}
                   quality={100}
                 />
               </div>

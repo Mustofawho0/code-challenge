@@ -86,7 +86,7 @@ export default function AboutPage() {
                 width={1000}
                 height={1000}
                 alt="card"
-                priority={true}
+                // priority={true}
                 quality={100}
               />
             </div>
@@ -103,7 +103,7 @@ export default function AboutPage() {
                 width={1000}
                 height={1000}
                 alt="card"
-                priority={true}
+                // priority={true}
                 quality={100}
               />
             </div>
@@ -120,7 +120,7 @@ export default function AboutPage() {
                 width={1000}
                 height={1000}
                 alt="card"
-                priority={true}
+                // priority={true}
                 quality={100}
               />
             </div>
