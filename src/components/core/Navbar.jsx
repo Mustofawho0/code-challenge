@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav>
       {/* Mobile */}
       <div className="lg:hidden">
-        <div className="relative w-full flex items-center justify-center rounded-b-full bg-blue-100 px-24 text-black shadow">
+        <div className="relative flex w-full items-center justify-center rounded-b-full bg-blue-100 px-24 text-black shadow">
           <div className="absolute left-10 z-50 flex">
             <div className="drawer">
               <input id="my-drawer" type="checkbox" className="drawer-toggle" />
@@ -24,24 +24,18 @@ export default function Navbar() {
                   aria-label="close sidebar"
                   className="drawer-overlay"
                 ></label>
-                <ul className="text-shuttlegray menu relative min-h-full w-80 bg-base-200 p-4 font-bold">
-                  <li className="hover:text-burnorange pt-10">
+                <ul className=" menu relative min-h-full w-80 bg-base-200 p-4 font-bold">
+                  <li className="pt-10">
                     <Link href="/">Home</Link>
                   </li>
                   <li>
-                    <Link className="hover:text-burnorange" href="/about">
-                      About Us
-                    </Link>
+                    <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link className="hover:text-burnorange" href="/product">
-                      Company Product
-                    </Link>
+                    <Link href="/product">Company Product</Link>
                   </li>
                   <li>
-                    <Link className="hover:text-burnorange" href="#">
-                      Our Teams
-                    </Link>
+                    <Link href="/team">Our Teams</Link>
                   </li>
 
                   {/* Close button */}
@@ -76,7 +70,7 @@ export default function Navbar() {
           <div>
             <Image
               className="h-[70px] w-[140px]"
-              // 
+              //
               loading="lazy"
               quality={100}
               src="/logo.png"
@@ -95,7 +89,9 @@ export default function Navbar() {
             <Link href={"/product"}>
               <span>Product Company</span>
             </Link>
-            <span>Our Team</span>
+            <Link href={"/team"}>
+              <span>Our Team</span>
+            </Link>
           </div>
           {/* END DESKTOP */}
         </div>

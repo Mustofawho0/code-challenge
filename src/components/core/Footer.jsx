@@ -44,16 +44,16 @@ export default function Footer() {
                   <span className="font-sans font-bold">Menu</span>
                   <ul className="py-7 text-sm">
                     <li className="py-3 hover:text-red-500">
-                      <a href="#">Home</a>
+                      <Link href="/">Home</Link>
                     </li>
                     <li className="py-3 hover:text-red-500">
-                      <a href="#">About Us</a>
+                      <Link href="/about">About Us</Link>
                     </li>
                     <li className="py-3 hover:text-red-500">
-                      <a href="#">Program</a>
+                      <Link href="/product">Product Company</Link>
                     </li>
                     <li className="py-3 hover:text-red-500">
-                      <a href="#">Contact</a>
+                      <Link href="/team">Our Team</Link>
                     </li>
                   </ul>
                 </div>
@@ -133,34 +133,34 @@ export default function Footer() {
               <div className="ml-[100px] w-[30%]">
                 <span className="font-sans font-bold">Menu</span>
                 <ul className="py-7 text-sm">
-                  <li className="py-3 hover:text-red-500">
-                    <a href="#">Home</a>
-                  </li>
-                  <li className="py-3 hover:text-red-500">
-                    <a href="#">About Us</a>
-                  </li>
-                  <li className="py-3 hover:text-red-500">
-                    <a href="#">Program</a>
-                  </li>
-                  <li className="py-3 hover:text-red-500">
-                    <a href="#">Contact</a>
-                  </li>
-                </ul>
+                    <li className="py-3 hover:text-red-500">
+                      <Link href="/">Home</Link>
+                    </li>
+                    <li className="py-3 hover:text-red-500">
+                      <Link href="/about">About Us</Link>
+                    </li>
+                    <li className="py-3 hover:text-red-500">
+                      <Link href="/product">Product Company</Link>
+                    </li>
+                    <li className="py-3 hover:text-red-500">
+                      <Link href="/team">Our Team</Link>
+                    </li>
+                  </ul>
               </div>
               <div className=" w-[55%]">
                 <span className="font-sans font-bold">Product Company</span>
                 <ul className="py-7 text-sm">
                   <li className="py-3 hover:text-red-500">
-                    <a href="#">Srikandi BUMN</a>
+                    <a href="https://srikandibumn.org/">Srikandi BUMN</a>
                   </li>
                   <li className="py-3 hover:text-red-500">
-                    <a href="#">BUMN Muda</a>
+                    <a href="https://bumnmudapelindo.org/">BUMN Muda</a>
                   </li>
                   <li className="py-3 hover:text-red-500">
-                    <a href="#">LSP MHCI</a>
+                    <a href="https://www.lsphcmi.com/">LSP HCMI</a>
                   </li>
                   <li className="py-3 hover:text-red-500">
-                    <a href="#">LPK FHCI</a>
+                    <a href="https://www.instagram.com/lpk_fhci/">LPK FHCI</a>
                   </li>
                 </ul>
               </div>

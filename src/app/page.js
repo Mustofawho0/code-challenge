@@ -124,7 +124,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="ml-[190px] sm:hidden md:flex w-[35vw] mobile:hidden items-center justify-start md:ml-[110px] lg:ml-[150px] xl:ml-[190px]">
+        <div className="ml-[190px] w-[35vw] items-center justify-start mobile:hidden sm:hidden md:ml-[110px] md:flex lg:ml-[150px] xl:ml-[190px]">
           <Image
             className="h-[200px] w-[300px]"
             src={"/logo.png"}
@@ -353,7 +353,7 @@ export default function Home() {
                 Founder, Company
               </p>
               <a
-                className="flex items-center space-x-1 py-2 text-sm text-sky-600"
+                className="flex items-center space-x-1 py-2 text-sm text-blue-700"
                 href="/"
               >
                 <span>Read full story</span>
