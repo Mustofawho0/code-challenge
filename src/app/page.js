@@ -23,11 +23,11 @@ export default function Home() {
           <Image
             className="w-[100vw] rounded-t-[40%]"
             src={"/g1.jpg"}
-            width={10000}
-            height={10000}
+            width={1000}
+            height={1000}
             // sizes="100vw"
             alt="Picture"
-            quality={100}
+            // quality={100}
             // priority={true}
             loading="lazy"
           />
