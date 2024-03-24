@@ -123,7 +123,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="ml-[190px] flex w-[35vw] items-center justify-start mobile:hidden sm:hidden md:ml-[110px] lg:ml-[150px] xl:ml-[190px]">
+        <div className="ml-[190px] sm:hidden md:flex w-[35vw] mobile:hidden items-center justify-start md:ml-[110px] lg:ml-[150px] xl:ml-[190px]">
           <Image
             className="h-[200px] w-[300px]"
             src={"/logo.png"}
